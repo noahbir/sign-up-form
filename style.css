@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("Norse-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.left {
+    flex: 1;
+    border: 2px solid black;
+    background-image: url("leafs.jpg");  
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 50%;
+    font-family: "Norse-Bold", sans-serif;
+    font-size: 60px;
+}
+
+
+.right {
+    flex: 2;
+}
